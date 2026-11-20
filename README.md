@@ -145,8 +145,6 @@ Generic client configuration:
 
 - Product page: https://www.oooooasis.com/fct
 - MCP Yellow Page listing: https://mcpyp.com/mcp/com.oooooasis/factor-data
-- Official MCP Registry: https://registry.modelcontextprotocol.io/v0.1/servers/io.github.oooooasis-fds%2Ffactor-data/versions/latest
-- MCP Try: https://mcptry.com/servers/io.github.oooooasis-fds/factor-data
 - Pricing & paid-tier waitlist: https://api.oooooasis.com/pricing
 - Sister service — TSX Data (Canadian market data): https://github.com/ooooOasis-fds/tsx-data · https://www.oooooasis.com/tsx
 - Contact: fct-data@oooooasis.com
