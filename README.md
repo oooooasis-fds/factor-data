@@ -86,7 +86,7 @@ curl -H "Authorization: Bearer $KEY" \
 
 ## MCP server
 
-URL: `https://mcp.oooooasis.com/fct/mcp` — Model Context Protocol (protocol version 2024-11-05), Streamable HTTP (`POST` to this URL). Every request needs your Factor Data key in the `Authorization: Bearer` header; the key selects this service. The same quota, tier scope and coverage metering as REST apply to tool calls.
+URL: `https://mcp.oooooasis.com/fct` — Model Context Protocol (protocol version 2024-11-05), Streamable HTTP (`POST` to this URL). Every request needs your Factor Data key in the `Authorization: Bearer` header; the key selects this service. The same quota, tier scope and coverage metering as REST apply to tool calls.
 
 Generic client configuration:
 
@@ -94,7 +94,7 @@ Generic client configuration:
 {
   "mcpServers": {
     "factor-data": {
-      "url": "https://mcp.oooooasis.com/fct/mcp",
+      "url": "https://mcp.oooooasis.com/fct",
       "headers": { "Authorization": "Bearer <your factor key>" }
     }
   }
